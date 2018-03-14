@@ -109,6 +109,7 @@ h5 {
     font-size: 9px;
     text-align: center;
     padding-top: 3px;
+    float: right;
 
 }
 
@@ -137,11 +138,8 @@ h5 {
 
 .
 
-.feature-img img {
-    width: 250px;
-    height: 250px;
-    border: 5px #e6e6e6 solid;
-    border-radius: 3px;
+.feature-img {
+    border: 20px solid  #e6e6e6;
 }
 
 .feature-project {
