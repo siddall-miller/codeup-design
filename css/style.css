@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Anton');
 /* Main style sheet for index.html */
 html, body {
-    background-color: #E6E6E6;
+    background-color: #f0f0f0;
     margin: 0;
     padding-top: 8px;
 }
@@ -104,6 +104,12 @@ h5 {
     height: 18px;
     width: 18px;
     border-radius: 9px;
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    font-size: 9px;
+    text-align: center;
+    padding-top: 3px;
+
 }
 
 
@@ -133,6 +139,15 @@ h5 {
 .feature-img img {
     width: 250px;
     height: 250px;
+    border: 5px #e6e6e6 solid;
+    border-radius: 3px;
+}
+
+.feature-project {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 10px;
+
 }
 
 
