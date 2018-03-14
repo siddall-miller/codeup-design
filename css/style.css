@@ -9,8 +9,22 @@ html, body {
 
 p {
     font-family: 'Abel', sans-serif;
+    margin:0px;
+
 }
 
+#header p {
+    padding-left: 10px;
+    font-size: 32px;
+    text-transform: lowercase;
+}
+
+
+#header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
 h1, h2, h3, h4, h5{
     font-family: 'Anton', sans-serif;
 
