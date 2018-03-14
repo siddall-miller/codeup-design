@@ -156,3 +156,85 @@ h5 {
 }
 
 
+/* Only for small */
+@media (max-width: 576px) {
+
+    .wrap-it {
+        break-after: right;
+        width: 100%;
+        text-align: center;
+    }
+
+    .align-center-xs {
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+    .ml-auto-sm {
+        margin-left: auto;
+    }
+    .align-center-sm {
+        text-align: center;
+        width: 100%;
+    }
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .ml-auto-md {
+        margin-left: auto;
+    }
+
+    .container {
+        max-width: 990px;
+    }
+
+    .align-center-md {
+        text-align: center;
+    }
+
+    .align-left-md {
+        text-align: left;
+    }
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .ml-auto-lg {
+        margin-left: auto;
+
+    }
+
+    .align-left-lg {
+        text-align: left;
+    }
+
+    .container {
+        max-width: 1000px;
+    }
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .ml-auto-xl {
+        margin-left: auto;
+
+    }
+
+    .container {
+        max-width: 1000px;
+    }
+
+}
+
