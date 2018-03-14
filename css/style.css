@@ -3,7 +3,7 @@
 html, body {
     background-color: #E6E6E6;
     margin: 0;
-    padding: 0;
+    padding-top: 8px;
 }
 
 
@@ -82,13 +82,29 @@ h5 {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     text-align: center;
-padding-top: 48px;
+    padding-top: 48px;
 }
 
 .circle-sm {
     height: 18px;
     width: 18px;
     border-radius: 9px;
+}
+
+
+.header-container {
+    position: absolute;
+    height: 82px;
+    background-color: #FFF;
+    border-top: 22px solid #E6E6E6;
+    width: 100%;
+    z-index: 1;
+}
+
+
+#header {
+    z-index: 1;
+    position: relative;
 }
 
 
