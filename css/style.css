@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Anton');
 /* Main style sheet for index.html */
-htnl, body {
+html, body {
     background-color: #E6E6E6;
+    margin: 0;
+    padding: 0;
 }
+
 
 p {
     font-family: 'Abel', sans-serif;
